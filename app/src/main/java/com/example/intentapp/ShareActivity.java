@@ -15,7 +15,7 @@ public class ShareActivity extends AppCompatActivity {
 
         Log.e("SSSSSS","here");
 
-        EditText shareEditText = findViewById(R.id.shareEditText);
+        EditText shareEditText = findViewById(R.id.shareEditText); //c
         Button shareButton = findViewById(R.id.shareButton);
 
         shareButton.setOnClickListener(v -> {
