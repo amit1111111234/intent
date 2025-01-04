@@ -19,7 +19,7 @@ public class ShareActivity extends AppCompatActivity {
         Button shareButton = findViewById(R.id.shareButton);
 
         shareButton.setOnClickListener(v -> {
-            String textToShare = shareEditText.getText().toString();
+            String textToShare = shareEditText.getText().toString();//bv
             Intent shareIntent = new Intent();
             shareIntent.setAction(Intent.ACTION_SEND);
             shareIntent.putExtra(Intent.EXTRA_TEXT, textToShare);
