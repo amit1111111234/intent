@@ -40,4 +40,22 @@
         android:layout_below="@id/mailTV"
         android:layout_marginTop="20sp"
         android:id="@+id/signIn"/>
+    <Button
+        android:id="@+id/openBrowserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Browser" />
+
+    <Button
+        android:id="@+id/makeCallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Call" />
+
+    <Button
+        android:id="@+id/shareTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Text" />
+
 </RelativeLayout>
